@@ -1,0 +1,8 @@
+<div class="image-gallery">
+  <div *ngFor="let u of imageUrls" class="image-item">
+    <img [src]="u.url" alt="Image" />
+    <div>
+      <p>{{ u.text }}</p>
+  </div>
+  <hr class="horizontal-divider"/>
+</div>

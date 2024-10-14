@@ -1,0 +1,11 @@
+{
+    "name": "Angular Dev Container",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "angular.ng-template",
+        "github.copilot"
+    ],
+    "postCreateCommand": "npm install -g @angular/cli"
+}
